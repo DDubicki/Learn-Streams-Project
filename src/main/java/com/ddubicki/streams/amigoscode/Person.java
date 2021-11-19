@@ -1,3 +1,5 @@
+package com.ddubicki.streams.amigoscode;
+
 public class Person {
 
   private final String name;
@@ -24,7 +26,7 @@ public class Person {
 
   @Override
   public String toString() {
-    return "Person{" +
+    return "com.ddubicki.streams.amigoscode.Person{" +
         "name='" + name + '\'' +
         ", age=" + age +
         ", gender=" + gender +
